@@ -19,6 +19,7 @@ do
 p=$(echo $a | cut -f1 -d: )
 v=$(echo $a | cut -f2 -d: )
 mkdir -p  logs
+rm -rf $p/$v/rpmbuild
 (sh srpmsbuild.sh $p $v --build &> logs/$p$v".log"  && sleep 2 && yum -y install ./$p/$v/rpmbuild/RPMS/*/*.rpm  )  || cat logs/$p$v".log"
 #&> logs/$p$v".log" || echo "$p $v build failed" 
 done
