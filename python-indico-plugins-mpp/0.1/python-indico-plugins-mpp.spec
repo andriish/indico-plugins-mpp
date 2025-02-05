@@ -17,7 +17,6 @@ BuildArch:      noarch
 %define iplugin()  \
 %%package -n python3-indico-%1-plugin \
 Summary:        Indico plugin %1  \
-Requires: python3-indico \
 %%description -n python3-indico-%1-plugin \
 Indico plugin %1 
 

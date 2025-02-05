@@ -1,4 +1,4 @@
-# This file is part of the MPP Indico plugins.
+x`# This file is part of the MPP Indico plugins.
 # Copyright (C) 2025 MPP
 #
 # The MPP Indico plugins are free software; you can redistribute
