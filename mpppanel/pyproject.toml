@@ -1,5 +1,5 @@
 [project]
-name = 'indico-plugin-panel'
+name = 'indico-plugin-mpppanel'
 version = '3.3-dev'
 license = 'MIT'
 authors = [{ name = 'Indico Team', email = 'indico-team@cern.ch' }]
@@ -16,14 +16,14 @@ dependencies = ['indico>=3.3.dev0']
 GitHub = 'https://github.com/andriish/indico-plugins-mpp'
 
 [project.entry-points.'indico.plugins']
-panel = 'indico_panel.plugin:panelPlugin'
+mpppanel = 'indico_mpppanel.plugin:mpppanelPlugin'
 
 [build-system]
 requires = ['hatchling==1.27.0']
 build-backend = 'hatchling.build'
 
 [tool.hatch.build]
-packages = ['indico_panel']
+packages = ['indico_mpppanel']
 exclude = [
     '*.no-header',
     '.keep',
