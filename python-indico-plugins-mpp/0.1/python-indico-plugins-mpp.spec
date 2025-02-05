@@ -32,7 +32,7 @@ Indico event management system.
 %prep
 %autosetup  -n indico-plugins-mpp-master
 
-%{__python3} -m pip install mpppanel --root=%{buildroot} --no-dependencies
+%{__python3} -m pip install ./mpppanel --root=%{buildroot} --no-dependencies
 
 
 %filesinplugin mpppanel
