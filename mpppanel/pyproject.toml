@@ -9,7 +9,7 @@ classifiers = [
     'License :: OSI Approved :: MIT License',
     'Programming Language :: Python :: 3.12',
 ]
-requires-python = '>=3.12.2, <3.13'
+requires-python = '>=3.12, <3.13'
 dependencies = ['indico>=3.3']
 
 [project.urls]
@@ -19,7 +19,7 @@ GitHub = 'https://github.com/andriish/indico-plugins-mpp'
 mpppanel = 'indico_mpppanel.plugin:mpppanelPlugin'
 
 [build-system]
-requires = ['hatchling']
+#requires = ['hatchling']
 build-backend = 'hatchling.build'
 
 [tool.hatch.build]
