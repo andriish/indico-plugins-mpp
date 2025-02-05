@@ -12,7 +12,7 @@ BuildArch:      noarch
 %define filesinplugin() \
 %%files -n python3-indico-%1-plugin \
 %{python3_sitelib}/indico_%1/* \
-%{python3_sitelib}/indico_plugin_%1-3.3.dist-info/*
+%{python3_sitelib}/indico_plugin_%1-3*-info/*
 
 %define iplugin()  \
 %%package -n python3-indico-%1-plugin \
