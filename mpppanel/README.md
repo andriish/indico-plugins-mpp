@@ -19,6 +19,6 @@ URL in the plugin settings.
 
 ## Changelog
 
-### 3.3
+### 0.2
 
 - Initial release
