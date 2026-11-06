@@ -1,0 +1,12 @@
+root: true
+owner: MPP
+start_year: 2026
+substring: This file is part of
+template: |-
+  {comment_start} This file is part of the MPP Indico plugins.
+  {comment_middle} Copyright (C) {dates} {owner}
+  {comment_middle}
+  {comment_middle} The MPP Indico plugins are free software; you can redistribute
+  {comment_middle} them and/or modify them under the terms of the MIT License;
+  {comment_middle} see the LICENSE file for more details.
+  {comment_end}
